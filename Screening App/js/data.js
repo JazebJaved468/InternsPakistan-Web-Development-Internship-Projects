@@ -1,0 +1,4 @@
+class Data{
+
+    constructor(questionsList = []){};
+};
