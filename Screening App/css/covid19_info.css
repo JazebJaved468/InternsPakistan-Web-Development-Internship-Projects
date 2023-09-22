@@ -54,7 +54,7 @@ margin: 0;
 
     
     }
-    .info-heading{
+    .info-heading,.result-heading{
         font-weight: 700;
     }
 
@@ -69,4 +69,8 @@ margin: 0;
 
     .preventive-measure{
         margin: 30px 0;
+    }
+
+    .result-container{
+      display: none;
     }

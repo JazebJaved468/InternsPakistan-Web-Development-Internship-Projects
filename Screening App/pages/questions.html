@@ -43,7 +43,7 @@
     ></script>
 
     <!-- JS file -->
-    <script src="../js/questions.js" defer></script>
+    <script src="../js/questions.js" type="module" defer></script>
 
     <!-- Title -->
     <title>Symptoms</title>
@@ -60,35 +60,41 @@
         </div>
       </div>
       <!-- main -->
+      <div class="question-container">
+        <div class="row info-container">
+          <!-- Question -->
+          <div class="col-12">
+            <h3 class="question"></h3>
+          </div>
+        </div>
 
-      <div class="row info-container">
-        <!-- Question -->
-        <div class="col-12">
-          <h3 class="question"></h3>
+        <!-- Image -->
+        <div class="row center-img">
+          <div class="col-9">
+            <img alt="" class="img-fluid question-img" />
+          </div>
+        </div>
+
+        <!-- Buttons (yes/no/result) -->
+        <div class="row center-btn">
+          <div class="col-11">
+            <button class="btn btn-primary yes options-btn">Yes, I do</button>
+          </div>
+          <div class="col-11">
+            <button class="btn btn-primary no options-btn">No, I don't</button>
+          </div>
+          <div class="col-11">
+            <button class="btn btn-primary result-btn">Show Report</button>
+          </div>
         </div>
       </div>
 
-      <!-- Image -->
-      <div class="row center-img">
-        <div class="col-9">
-          <img alt="" class="img-fluid question-img" />
-        </div>
+      <div class="result-container">
+        <h3 class="result-heading"></h3>
+        <ol class="result-description"></ol>
+        <p class="result-conclusion"></p>
       </div>
-
-      <!-- Buttons (yes/no/result) -->
-      <div class="row center-btn">
-        <div class="col-11">
-          <button class="btn btn-primary yes options-btn">Yes, I do</button>
-        </div>
-        <div class="col-11">
-          <button class="btn btn-primary no options-btn">No, I don't</button>
-        </div>
-        <div class="col-11">
-          <a href="result.html"
-            ><button class="btn btn-primary result-btn">Show Report</button></a
-          >
-        </div>
-      </div>
+    
     </div>
   </body>
 </html>

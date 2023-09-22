@@ -48,13 +48,13 @@ body{
     text-decoration: none;
 }
 
-.info-container {
+.info-container , .result-container{
   
 padding: 40px 30px;
 
     
 }
-.question{
+.question, .result-heading{
     font-weight: 800;
     font-size: 1.2em;
     margin-bottom: 30px;
